@@ -1,6 +1,6 @@
 module Munson
   module Middleware
-    class JsonParser < Faraday::Response::Middleware
+    class JsonParser < Faraday::Middleware
       def initialize(app, key_formatter = nil)
         super(app)
         @key_formatter = key_formatter

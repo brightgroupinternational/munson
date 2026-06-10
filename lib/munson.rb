@@ -1,7 +1,6 @@
 require 'json'
 require 'cgi'
 require 'faraday'
-require 'faraday_middleware'
 require 'bigdecimal'
 
 require "munson/version"
